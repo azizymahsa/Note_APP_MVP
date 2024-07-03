@@ -1,11 +1,13 @@
-package azizi.mahsa.noteMvpApp.room.ui.activity
+package azizi.mahsa.noteMvpApp.room.ui.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import azizi.mahsa.noteMvpApp.databinding.ActivityMainBinding
-import azizi.mahsa.noteMvpApp.room.ui.fragment.NoteFragment
+import azizi.mahsa.noteMvpApp.room.ui.add.NoteFragment
+import dagger.hilt.android.AndroidEntryPoint
 
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     //Binding
     private lateinit var binding: ActivityMainBinding
